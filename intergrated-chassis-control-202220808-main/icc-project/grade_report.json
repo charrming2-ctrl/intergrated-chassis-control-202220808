@@ -1,0 +1,155 @@
+{
+  "student": {
+    "student_id": "202220808",
+    "name": "이찬민",
+    "team_members": [],
+    "course": "자동제어 - 2026 봄",
+    "ai_usage": "Gemini used to almost"
+  },
+  "timestamp": "2026-06-23T19:01:41",
+  "quantitative": {
+    "score": 0,
+    "max": 70,
+    "pct": 0
+  },
+  "deductions": {
+    "amount": 0,
+    "reasons": [
+      "runtime errors (자동채점 quantitative 부분 0점 처리): 6 시나리오"
+    ]
+  },
+  "errors": [
+    "A3: 'Fx_final'은(는) 인식할 수 없는 함수 또는 변수입니다.",
+    "A1: 'Fx_final'은(는) 인식할 수 없는 함수 또는 변수입니다.",
+    "A4: 'Fx_final'은(는) 인식할 수 없는 함수 또는 변수입니다.",
+    "A7: 'Fx_final'은(는) 인식할 수 없는 함수 또는 변수입니다.",
+    "B1: 'Fx_final'은(는) 인식할 수 없는 함수 또는 변수입니다.",
+    "D1: 'Fx_final'은(는) 인식할 수 없는 함수 또는 변수입니다."
+  ],
+  "breakdown": [
+    {
+      "sid": "A3",
+      "kpi": "yawRateOvershoot",
+      "value": null,
+      "target": 10,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateRiseTime",
+      "value": null,
+      "target": 0.3,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateSettling",
+      "value": null,
+      "target": 0.8,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A1",
+      "kpi": "sideSlipMax",
+      "value": null,
+      "target": 3,
+      "score": 0,
+      "max": 6
+    },
+    {
+      "sid": "A1",
+      "kpi": "LTR_max",
+      "value": null,
+      "target": 0.6,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "A1",
+      "kpi": "lateralDevMax",
+      "value": null,
+      "target": 0.7,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A4",
+      "kpi": "understeerGradient",
+      "value": null,
+      "target": 0.003,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "A4",
+      "kpi": "sideSlipMax",
+      "value": null,
+      "target": 2,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "A7",
+      "kpi": "sideSlipMax",
+      "value": null,
+      "target": 5,
+      "score": 0,
+      "max": 8
+    },
+    {
+      "sid": "A7",
+      "kpi": "LTR_max",
+      "value": null,
+      "target": 0.7,
+      "score": 0,
+      "max": 7
+    },
+    {
+      "sid": "B1",
+      "kpi": "stoppingDistance",
+      "value": null,
+      "target": 40,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "B1",
+      "kpi": "absSlipRMS",
+      "value": null,
+      "target": 0.1,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "D1",
+      "kpi": "sideSlipMax",
+      "value": null,
+      "target": 4,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "D1",
+      "kpi": "LTR_max",
+      "value": null,
+      "target": 0.6,
+      "score": 0,
+      "max": 2
+    },
+    {
+      "sid": "D1",
+      "kpi": "lateralDevMax",
+      "value": null,
+      "target": 1,
+      "score": 0,
+      "max": 2
+    }
+  ],
+  "final_auto": 0,
+  "ctrl_signature": "bee8da1e8d8828238910fdc432eee6a698c76235cb2e3cc5872fdaae0a2f250f",
+  "matlab_version": "25.2 (R2025b)",
+  "solver_used": "ode45"
+}
